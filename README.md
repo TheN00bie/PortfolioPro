@@ -19,6 +19,8 @@ run the app in via terminal with following command:
 
 - The app is very experimental and is developed only for educational purposes and have many underlying static assumptions and is not suitable for real world trade analysis in the current state. 
 
+- As of of now app only analyses one stock at a time , not a very good thing for a portfolio analytics app. But one workaround for now is launching multiple instances of it in multiple browser tabs.
+
 for example: 
 
 - the risk free for various calculations is a static `0` for now
@@ -31,5 +33,12 @@ for example:
 - and much more
 
 # References : 
+
+- Notes `kornfanakis` of https://www.kaggle.com/korfanakis
+- https://cheat-sheet.streamlit.app/
+
+# And thanks to all the Professors for teaching and always helping : )
+
+
 
 

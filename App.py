@@ -31,7 +31,7 @@ st.markdown('''
 ''')
 st.sidebar.header('Select Stocks: ')
 
-ticker = st.sidebar.text_input('Tickers comma-separated:')
+ticker = st.sidebar.text_input('Enter a ticker:', value="yfinance ticker")
 
 today = dt.datetime.today()
 start_date = st.sidebar.date_input('Start date:',
