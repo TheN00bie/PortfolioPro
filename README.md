@@ -34,7 +34,7 @@ for example:
 
 # References : 
 
-- Notes `kornfanakis` on technical indicators of https://www.kaggle.com/korfanakis
+- Notes of `kornfanakis` on technical indicators of https://www.kaggle.com/korfanakis
 - https://cheat-sheet.streamlit.app/
 
 # And thanks to all the Professors for teaching and always helping : )
