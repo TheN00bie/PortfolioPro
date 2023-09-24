@@ -161,9 +161,13 @@ if ticker:
     'Best Year': str(bestyear[0]),
     'Return in Best Year': bestyear[1]
 }
+    
+    
 
 # dataframe output in streamlit app for metrics
+    st.markdown('## Key Performance Metrics: ')
     st.dataframe(mapmdf)
+    st.markdown('## Final Manipulated Dataframe: ')
     st.dataframe(df)
     st.write('Still a lot to do , a lot to learn : )')
 
