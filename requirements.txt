@@ -1,5 +1,6 @@
 matplotlib
 pandas
-plotly
 streamlit
 yfinance
+PIL
+plotly==5.17.0
