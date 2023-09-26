@@ -3,4 +3,4 @@ pandas
 streamlit
 streamlit-extras
 yfinance==0.2.29
-plotly==5.17.0
+plotly
