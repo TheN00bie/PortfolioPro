@@ -10,15 +10,9 @@ from PIL import Image
 import QuantFunctions as qf
 import mapmfunctions as mapm
 
+
 #Page configs:
-st.set_page_config(page_title='PortfolioPro', page_icon=None, layout = 'wide', initial_sidebar_state = 'auto')
-hide_streamlit_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 
 st.sidebar.image("logo/logo.png", width=220,
                  use_column_width=False)  
@@ -144,16 +138,16 @@ if ticker:
 
         st.markdown('## Analytical Indicators: ')
 
+
         st.plotly_chart(fig)
+        
 
         cagr1 = mapm.cagrfn(df)
         var1 = mapm.var(df)
         sortino1 = mapm.sortinoratio(df)
         bestyear = mapm.best_year(df)
 
-
-
-        # Create a DataFrame from the variables of mapm fn calcs
+            # Create a DataFrame from the variables of mapm fn calcs
     mapmdf = {
     'CAGR': cagr1*100,
     'Value at Risk': var1,
@@ -161,6 +155,10 @@ if ticker:
     'Best Year': str(bestyear[0]),
     'Return in Best Year': bestyear[1]
 }
+
+
+
+    
     
     
 
