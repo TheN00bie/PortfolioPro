@@ -1,5 +1,6 @@
 matplotlib
 pandas
 streamlit
+streamlit-extras
 yfinance==0.1.74
 plotly==5.17.0
