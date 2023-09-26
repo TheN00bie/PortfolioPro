@@ -170,6 +170,3 @@ if ticker:
     st.markdown('## Final Manipulated Dataframe: ')
     st.dataframe(df)
     st.write('Still a lot to do , a lot to learn : )')
-
-
-     
