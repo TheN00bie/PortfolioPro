@@ -147,8 +147,11 @@ if ticker:
         sortino1 = mapm.sortinoratio(df)
         bestyear = mapm.best_year(df)
 
-            # Create a DataFrame from the variables of mapm fn calcs
-    mapmdf = {
+         # Create a DataFrame from the variables of mapm fn calcs
+
+
+
+         mapmdf = {
     'CAGR': cagr1*100,
     'Value at Risk': var1,
     'Sortino': sortino1,
@@ -156,6 +159,9 @@ if ticker:
     'Return in Best Year': bestyear[1]
 }
 
+
+           
+   
 
 
     
