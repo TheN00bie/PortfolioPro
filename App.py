@@ -152,12 +152,18 @@ if ticker:
 
 
          mapmdf = {
-    'CAGR': cagr1*100,
-    'Value at Risk': var1,
-    'Sortino': sortino1,
-    'Best Year': str(bestyear[0]),
-    'Return in Best Year': bestyear[1]
+            'CAGR': cagr1*100,
+            'Value at Risk': var1,
+            'Sortino': sortino1,
+            'Best Year': str(bestyear[0]),
+            'Return in Best Year': bestyear[1]
          }
+    
+    
+    
+    
+    
+         
 
 
 
