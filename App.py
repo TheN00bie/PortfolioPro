@@ -157,7 +157,8 @@ if ticker:
     'Sortino': sortino1,
     'Best Year': str(bestyear[0]),
     'Return in Best Year': bestyear[1]
-}
+         }
+
 
 
            
